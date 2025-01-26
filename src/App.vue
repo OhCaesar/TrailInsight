@@ -73,17 +73,35 @@ function onfocus() {
     }
 }
 
+
 //Reactive typing functionality
 async function peformEnter(event) {
     if (event.keyCode == 13) {
-      //Select Country
+        //Select Country
         autocompleteVisibility.value = false;
+        autocompleteList.value = countries.value.filter((element) => element.toLowerCase().startsWith(searchValue.value.toLowerCase())).slice(0,5);
+        currentCountry.value=data.value.Countries[countries.value.findIndex((country) => country.toLowerCase() === autocompleteList.value[0])];
+
+        const response = await fetch('/'+currentCountry.value.Countryname+'-borders.geojson');
+        center.value = currentCountry.value.field;
+        geoJsonData.value = await response.json();
     } else {
         autocompleteVisibility.value = true;
         autocompleteList.value = countries.value.filter((element) => element.toLowerCase().startsWith(searchValue.value.toLowerCase())).slice(0,5);
         console.log(autocompleteList.value)
       }
 }
+
+
+async function clickAutocompletionEntry(value) {
+  autocompleteVisibility.value = false;
+  autocompleteList.value = countries.value.filter((element) => element.toLowerCase().startsWith(value.toLowerCase())).slice(0,5);
+  currentCountry.value=data.value.Countries[countries.value.findIndex((country) => country.toLowerCase() === autocompleteList.value[0])];
+
+  const response = await fetch('/'+currentCountry.value.Countryname+'-borders.geojson');
+  geoJsonData.value = await response.json();
+}
+
 // Fetch GeoJSON file
 onMounted(async () => {
   const response = await fetch('/albania-borders.geojson');
