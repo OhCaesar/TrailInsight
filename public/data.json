@@ -1,0 +1,1299 @@
+{
+    "Countries": [
+        {
+            "Countryname": "Albania", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":27400,
+                "PopulationDensity":101,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":0
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":252,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":3,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Austria", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":83879,
+                "PopulationDensity": 111,
+                "AvgStationDistance": 3.5
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":72 
+            },
+            "StateOwned": true,
+            "StationCount": 1028,
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":5577,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 87.2,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":77,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Belgium", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":30280,
+                "PopulationDensity":388,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":88 
+            },
+            "StateOwned": false,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":3629,
+                "HighspeedTrails":211
+            },
+            "TrailQuality": {
+                "OnTimeRate": 88.1,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":17,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Bosnia and Herzegovina", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":51000,
+                "PopulationDensity":62,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":73.5 
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1025,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":2,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Bulgaria", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":108560,
+                "PopulationDensity":62,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":74.6
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":4029,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 63.6,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":14,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Croatia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":55960,
+                "PopulationDensity":69,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":38
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":2617,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 73.5,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":20,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Czechia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":77240,
+                "PopulationDensity":137,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":34
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":9514,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 74.9,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":60,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Denmark", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":42430,
+                "PopulationDensity":141,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":32.8
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":2448,
+                "HighspeedTrails":57
+            },
+            "TrailQuality": {
+                "OnTimeRate": 86.1,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":16,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Estonia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":42390,
+                "PopulationDensity":32,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":11.9
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1171,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":8,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Finland", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":303890,
+                "PopulationDensity":19,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":57.9
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":5915,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 86.8,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":7,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "France", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":547557,
+                "PopulationDensity":122,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":60.3 
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":"",
+                "HighspeedTrails":""
+            },
+            "TrailQuality": {
+                "OnTimeRate": 88.9,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":"",
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Georgia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":69700,
+                "PopulationDensity":57.6,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":98.4 
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1114,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 88.9,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":1,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Germany", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":348560,
+                "PopulationDensity":241,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":54.8
+            },
+            "StateOwned": true,
+            "StationCount": 5401,
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":38691,
+                "HighspeedTrails":1104
+            },
+            "TrailQuality": {
+                "OnTimeRate": 75.3,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":400,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Greece", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":128900,
+                "PopulationDensity":77,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":37.1
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1822,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 23.6,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":4,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Hungary", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":90530,
+                "PopulationDensity":106,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":40.7
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":7437,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 65.7,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":61,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Ireland", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":68890,
+                "PopulationDensity":77,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":2.6
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":2045,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 87.2,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":2,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Italy", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":294140,
+                "PopulationDensity":201,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":72.4
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":16832,
+                "HighspeedTrails":1097
+            },
+            "TrailQuality": {
+                "OnTimeRate": 63.9,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":52,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Latvia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":62200,
+                "PopulationDensity":30,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":13.5
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1830,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 94,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":1,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Lithuania", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":62674,
+                "PopulationDensity":45,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":7.9
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1924,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 98.9,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":3,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Luxembourg", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":2590,
+                "PopulationDensity":263,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":96.7 
+            },
+            "StateOwned": true,
+            "StationCount": 66,
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":271,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":2,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Moldova", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":32850,
+                "PopulationDensity":91,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":0
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1150,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":1,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Montenegro", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":13450,
+                "PopulationDensity":47,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":90.5
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":250,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":"",
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Netherlands", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":33720,
+                "PopulationDensity":544,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":74.5
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":3041,
+                "HighspeedTrails":90
+            },
+            "TrailQuality": {
+                "OnTimeRate": 79.2,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":33,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "North Macedonia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":25220,
+                "PopulationDensity":72,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":34.3
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":683,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":2,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Norway", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":365268,
+                "PopulationDensity":15,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":64.3
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":3903,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 78,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":18,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Poland", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":306230,
+                "PopulationDensity":125,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":62.7
+            },
+            "StateOwned": false,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":"",
+                "HighspeedTrails":""
+            },
+            "TrailQuality": {
+                "OnTimeRate": 85.8,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":100,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Portugal", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":91590,
+                "PopulationDensity":114,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":70.9 
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":2527,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 75.1,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":5,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Romania", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":230170,
+                "PopulationDensity":82,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":38 
+            },
+            "StateOwned": false,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":10611,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 77.3,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":"",
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Serbia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":87460,
+                "PopulationDensity":76,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":38.6
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":3382,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":6,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Slovakia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":48088,
+                "PopulationDensity":114,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":43.7 
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":3631,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 72.3,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":28,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Slovenia", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":20140,
+                "PopulationDensity":105,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":50.1
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":1208,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 72.2,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":3,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Spain", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":498800,
+                "PopulationDensity":96,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":64.8
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":16103,
+                "HighspeedTrails":3189
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":21,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Sweden", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":410340,
+                "PopulationDensity":26,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":75
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":10906,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 85.3,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":28,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Switzerland", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":39516,
+                "PopulationDensity":227,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":99.8
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":5318,
+                "HighspeedTrails":0
+            },
+            "TrailQuality": {
+                "OnTimeRate": 94.1,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":67,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "Türkiye", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":769630,
+                "PopulationDensity":114,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":52.5 
+            },
+            "StateOwned": true,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":11417,
+                "HighspeedTrails":1978
+            },
+            "TrailQuality": {
+                "OnTimeRate": "",
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":4,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        },
+
+        {
+            "Countryname": "United Kingdom", 
+            "ReachabilityScore": {
+                "StationDensity":"",
+                "CountrySize":241930,
+                "PopulationDensity":287,
+                "AvgStationDistance": ""
+            },
+            "AvgWaitTimes":"",
+            "Umweltfaktor":{
+                "EnergyUsage":"",
+                "CoalTrainCount":"",
+                "EGrad":"" 
+            },
+            "StateOwned": false,
+            "StationCount": "",
+            "Trails":{
+                "ShortdistanceTravelTrails":"",
+                "LongdistanceTravelTrails":"",
+                "Length":16433,
+                "HighspeedTrails":109
+            },
+            "TrailQuality": {
+                "OnTimeRate": 77.4,
+                "Cancelation": "",
+                "UserSatisfaction": ""
+            },
+            "Price": {
+                "AvgTicketPrice": ""
+            },
+            "CompanyCount":46,
+            "Ticketsales":"",
+            "Optional":"",
+            "Sources":["https://ec.europa.eu", "https://www.epf.eu"]
+        }
+    ]
+}
