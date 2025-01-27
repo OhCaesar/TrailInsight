@@ -1,6 +1,6 @@
 # denki-mini-project
 
-![Image](image.png)
+![alt text](image-1.png)
 
 
 ## Project setup
