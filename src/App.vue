@@ -2,6 +2,7 @@
 import "leaflet/dist/leaflet.css"
 import { LMap, LTileLayer,LGeoJson } from "@vue-leaflet/vue-leaflet"
 import { onMounted, ref } from "vue";
+import 'primeicons/primeicons.css'
 
 let zoom = ref(6)
 const geoJsonData = ref(null);
@@ -117,7 +118,7 @@ onMounted(async () => {
 
 
 <template>
-  <main>
+  <main style="overflow: hidden;">
     <!-- Search Bar (ensured to appear upfront) -->
     <div
       style="display: flex; width: 100%; align-items: center; justify-content: center; position: absolute; z-index: 1000;">
@@ -145,7 +146,7 @@ onMounted(async () => {
       </div>
 
     <!-- Main Content -->
-    <div style="display: flex; height: 99vh; align-items: center; justify-content: center; z-index: 1;">
+    <div style="display: flex; height: 99%; align-items: center; justify-content: center; z-index: 1;">
       <!-- Map Div (left side) -->
       <div style="width: 50%; height: 100%;">
         <l-map ref="map" v-model:zoom="zoom" v-model:center="center" :useGlobalLeaflet="false">
@@ -157,52 +158,76 @@ onMounted(async () => {
           <l-geo-json :geojson="geoJsonData" :style="geoJsonOptions" />
         </l-map>
       </div>
-      <div style="width: 50%; height: 100%; padding: 10px; margin-left: 5%; margin-top: 15%;">
-        <h1>{{ currentCountry.Countryname }}</h1>
+      <div style="width: 50%; height: 100%; padding: 10px; margin-left: 2%; margin-top: 15%;color: #ffffff; /* Text color */">
+        <h1> <i class="pi pi-flag" style="color: slateblue;margin-right: 50px;"></i>{{ currentCountry.Countryname }}</h1>
 
         <!-- Other Div (right side) -->
-        <div style="display:flex;">
+        <div style="display:flex;overflow: auto;height: 100%;">
           <!-- Your content for the right side -->
             
-          <div style="width: 50%; height: 100%; padding: 10px;">
+          <div style="width: 50%; height: 80%; padding: 10px; display: flex;flex-direction: column; gap: 10px;">
+              <div class="card">
 
-          <p><strong>Country Size:</strong> {{ currentCountry.ReachabilityScore.CountrySize }}</p>
-          <p><strong>Population Density:</strong> {{ currentCountry.ReachabilityScore.PopulationDensity }}</p>
-          <p><strong>Station Density:</strong> {{ currentCountry.ReachabilityScore.StationDensity }}</p>
+                <h3><i class="pi pi-info-circle" style="color: slateblue;margin-right: 10px;"></i>Country Details</h3>
+                <p><strong>Country Size:</strong> {{ currentCountry.ReachabilityScore.CountrySize }}</p>
+                <p><strong>Population Density:</strong> {{ currentCountry.ReachabilityScore.PopulationDensity }}</p>
+                <p><strong>Station Density:</strong> {{ currentCountry.ReachabilityScore.StationDensity }}</p>
 
-          <h3>Ticket Details</h3>
-          <p><strong>Companies:</strong> {{ currentCountry.CompanyCount }}</p>
-          <p><strong>Ticket Price:</strong> {{ currentCountry.Price.AvgTicketPrice }}</p>
-          <p><strong>Ticket Sales:</strong> {{ currentCountry.Ticketsales }}</p>
+              </div>
 
-          <h3>Environmental Factors (Umweltfaktor)</h3>
-            <p><strong>Energy Usage:</strong> {{ currentCountry.Umweltfaktor.EnergyUsage }}</p>
-            <p><strong>Coal Train Count:</strong> {{ currentCountry.Umweltfaktor.CoalTrainCount }}</p>
-            <p><strong>EGrad:</strong> {{ currentCountry.Umweltfaktor.EGrad }}</p>
+              <div class="card">
 
-            <h3>Trail Information</h3>
-            <p><strong>Short-distance Travel Trails:</strong> {{ currentCountry.Trails.ShortdistanceTravelTrails }}</p>
-            <p><strong>Long-distance Travel Trails:</strong> {{ currentCountry.Trails.LongdistanceTravelTrails }}</p>
-            <p><strong>Trail Length:</strong> {{ currentCountry.Trails.Length }}</p>
-            <p><strong>High-speed Trails:</strong> {{ currentCountry.Trails.HighspeedTrails }}</p>
+                <h3><i class="pi pi-ticket" style="color: slateblue;margin-right: 10px;"></i>  Ticket Details</h3>
+                <p><strong>Companies:</strong> {{ currentCountry.CompanyCount }}</p>
+                <p><strong>Ticket Price:</strong> {{ currentCountry.Price.AvgTicketPrice }}</p>
+                <p><strong>Ticket Sales:</strong> {{ currentCountry.Ticketsales }}</p>
 
-          </div>
-          <div style="width: 50%; height: 100%; padding: 10px;">
+              </div>
+              <div class="card">
+                
+                <div><i class="pi pi-sparkles" style="color: slateblue;right: 10px;"></i><h3>Environmental Factors (Umweltfaktor)</h3></div>
+                <p><strong>Energy Usage:</strong> {{ currentCountry.Umweltfaktor.EnergyUsage }}</p>
+                <p><strong>Coal Train Count:</strong> {{ currentCountry.Umweltfaktor.CoalTrainCount }}</p>
+                <p><strong>EGrad:</strong> {{ currentCountry.Umweltfaktor.EGrad }}</p>
+              </div>
+          
+              <div class="card">
+                <h3>Trail Information</h3>
+                <p><strong>Short-distance Travel Trails:</strong> {{ currentCountry.Trails.ShortdistanceTravelTrails }}</p>
+                <p><strong>Long-distance Travel Trails:</strong> {{ currentCountry.Trails.LongdistanceTravelTrails }}</p>
+                <p><strong>Trail Length:</strong> {{ currentCountry.Trails.Length }}</p>
+                <p><strong>High-speed Trails:</strong> {{ currentCountry.Trails.HighspeedTrails }}</p>
+              </div>
             
-            <h3>Trail Quality</h3>
+          </div>
+          <div style="width: 50%; height: 100%; padding: 10px; display: flex;flex-direction: column; gap: 10px;">
+            
+            <div class="card">
+              
+              <h3><i class="pi pi-hammer" style="color: slateblue;margin-right: 10px;"></i> Trail Quality</h3>
             <p><strong>On-time Rate:</strong> {{ currentCountry.TrailQuality.OnTimeRate }}</p>
             <p><strong>Cancellation Rate:</strong> {{ currentCountry.TrailQuality.Cancelation }}</p>
             <p><strong>User Satisfaction:</strong> {{ currentCountry.TrailQuality.UserSatisfaction }}</p>
+
+              </div>
+
+            <div class="card">
 
             <h3>Additional Information</h3>
             <p><strong>Average Wait Times:</strong> {{ currentCountry.AvgWaitTimes }}</p>
             <p><strong>Station Count:</strong> {{ currentCountry.StationCount }}</p>
             <p><strong>State Owned:</strong> {{ currentCountry.StateOwned ? 'Yes' : 'No' }}</p>
 
+              </div>
+
+            <div class="card">
+
             <h3>Sources</h3>
             <ul>
               <li v-for="source in currentCountry.Sources" :key="source">{{ source }}</li>
             </ul>
+              </div>
+            
           </div>
         </div>
       </div>
@@ -220,10 +245,12 @@ html, body {
 
 main {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  background-color: #282838
 }
 
 html { box-sizing: border-box; height: 100%; font-size: 10px; } *, *::before, *::after { box-sizing: inherit; }
+
 
 @keyframes form-bg {
   0% {background: #89cff0;}
@@ -314,6 +341,46 @@ label {
     animation-iteration-count: infinite;
 
 
+}
+.card {
+    background-color: #1e1e2a; /* Dark background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 16px; /* Padding inside the card */
+    width: 100%; /* Adjust width as needed */
+    max-width: 300px; /* Optional: limit the card's width */
+    color: #ffffff; /* Text color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    gap: 8px; /* Spacing between elements */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+.card i {
+    font-size: 24px; /* Icon size */
+    background-color: #2a2a38; /* Circle background */
+    border-radius: 50%; /* Circular icon */
+    padding: 12px; /* Space around the icon */
+    color: #00ff99; /* Icon color */
+}
+
+.card h1, .card h3 {
+    margin: 0;
+    font-size: 18px; /* Heading size */
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0;
+    font-size: 14px; /* Text size */
+    line-height: 1.6; /* Improve readability */
+    color: #a9a9b2; /* Slightly lighter text color */
 }
 
 @keyframes autocomplete {

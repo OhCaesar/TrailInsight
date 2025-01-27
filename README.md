@@ -1,5 +1,8 @@
 # denki-mini-project
 
+![Image](image.png)
+
+
 ## Project setup
 ```
 npm install
@@ -26,3 +29,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Attribution Reference
 Geodata files have been created and are licensed by https://cartographyvectors.com/map/
+
+
